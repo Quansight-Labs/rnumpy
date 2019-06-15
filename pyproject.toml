@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "rnumpy"
+author = "Ralf Gommers"
+author-email = "ralf.gommers@gmail.com"
+home-page = "https://github.com/rgommers/rnumpy"
+description-file = "README.md"
+requires = [
+    "numpy >= 1.16.3",
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.flit.metadata.requires-extra]
+test = ["pytest"]
+doc = ["sphinx"]
+
