@@ -6,10 +6,10 @@ build-backend = "flit.buildapi"
 module = "rnumpy"
 author = "Ralf Gommers"
 author-email = "ralf.gommers@gmail.com"
-home-page = "https://github.com/rgommers/rnumpy"
+home-page = "https://github.com/Quansight-Labs/rnumpy"
 description-file = "README.md"
 requires = [
-    "numpy >= 1.16.3",
+    "numpy >= 1.16.4",
 ]
 requires-python = ">=3.6"
 classifiers = [
