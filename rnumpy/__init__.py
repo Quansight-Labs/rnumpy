@@ -346,5 +346,27 @@ nditer = _np.nditer
 # Scalar types
 # ------------
 
-# TODO
+# There are many aliases (e.g. `np.longdouble is np.int64`, `np.float is float`),
+# leaving those all out.  For extended precision, use longdouble/clongfloat
+float16 = _np.float16
+float32 = _np.float32
+float64 = _np.float64
+longdouble = _np.longdouble
 
+int8 = _np.int8
+int16 = _np.int16
+int32 = _np.int32
+int64 = _np.int64
+intc = _np.intc
+intp = _np.intp
+
+uint8 = _np.uint8
+uint16 = _np.uint16
+uint32 = _np.uint32
+uint64 = _np.uint64
+uintc = _np.uintc
+uintp = _np.uintp
+
+complex64 = _np.complex64
+complex128 = _np.complex128
+clongdouble = _np.clongdouble
