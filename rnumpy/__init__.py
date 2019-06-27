@@ -214,11 +214,14 @@ errstate = _np.errstate
 # all left out
 
 
-# Indexing function
-# -----------------
+# Indexing functions
+# ------------------
 
-# TODO
-
+nonzero = _np.nonzero
+where = _np.where
+diag = _np.diag
+# XXX: nditer, ndenumerate, ndindex are used (often enough?) and make sense.
+# They could be external, or included. Most other numpy-like libs don't have them though.
 
 # I/O functions
 # -------------
