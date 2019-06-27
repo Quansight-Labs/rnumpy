@@ -186,7 +186,11 @@ repeat = _np.repeat
 # Data type routines
 # ------------------
 
-# TODO
+finfo = _np.finfo
+iinfo = _np.iinfo
+# XXX: other data type routines TBD. They are used and useful (e.g. `can_cast`,
+#      `find_common_type`), but which ones are best practice, and should they
+#      live in the main namespace?
 
 
 # Floating point error handling
@@ -340,7 +344,6 @@ newaxis = _np.newaxis
 ndarray = _np.ndarray
 ufunc = _np.ufunc
 dtype = _np.dtype
-nditer = _np.nditer
 
 
 # Scalar types
