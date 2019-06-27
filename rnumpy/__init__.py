@@ -267,7 +267,44 @@ isclose = _np.isclose
 # Mathematical functions
 # ----------------------
 
-# TODO
+# Math
+add = _np.add
+subtract = _np.subtract
+multiply = _np.multiply
+divide = _np.divide
+logaddexp = _np.logaddexp
+power = _np.power
+mod = _np.mod
+sign = _np.sign
+conj = _np.conj
+exp = _np.exp
+log = _np.log
+sqrt = _np.sqrt
+
+# Trig
+sin = _np.sin
+cos = _np.cos
+tan = _np.tan
+arcsin = _np.arcsin
+arccos = _np.arccos
+arctan = _np.arctan
+arctan2 = _np.arctan2
+hypot = _np.hypot
+sinh = _np.sinh
+cosh = _np.cosh
+tanh = _np.tanh
+arcsinh = _np.arcsinh
+arccosh = _np.arccosh
+arctanh = _np.arctanh
+deg2rad = _np.deg2rad
+rad2deg = _np.rad2deg
+
+# Floating point
+isfinite = _np.isfinite
+isinf = _np.isinf
+isnan = _np.isnan
+floor = _np.floor
+ceil = _np.ceil
 
 
 # NaN-related functions
@@ -282,6 +319,7 @@ nansum = _np.nansum
 nanquantile = _np.nanquantile
 nanargmin = _np.nanargmin
 nanargmax = _np.nanargmax
+
 
 # Padding functions
 # -----------------
