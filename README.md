@@ -36,4 +36,5 @@ Such implementations in terms of core functions is useful for `ndarray` subclass
 people porting NumPy to other platforms (e.g. WebAssembly), and probably other groups of
 developers too.
 
-See the docstring of `rnumpy/__init__.py` for more details.
+See the `rnumpy` [module docstring](https://github.com/Quansight-Labs/rnumpy/blob/master/rnumpy/__init__.py)
+for more details.
